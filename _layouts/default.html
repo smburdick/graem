@@ -10,7 +10,7 @@
 			  <meta name="description" content="{% if page.description %}{{ page.description | strip | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}">
   			<meta property="og:site_name" content="{{ page.title }}">
 
-			<link rel="stylesheet" type="text/css" href="/Personal-Wiki-Site-Setup/css/main.css">
+			<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.css">
         	<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id={{ page.ga_id }}"></script>
 
@@ -48,10 +48,10 @@
 			<p>Fantasy RPG Wiki</p>
 			<nav>
 	    		<ul>
-	        		<li><a href="/Personal-Wiki-Site-Setup/">Home</a></li>
-		        	<li><a href="/Personal-Wiki-Site-Setup/about/">About</a></li>
-	        		<li><a href="/Personal-Wiki-Site-Setup/wiki/">Wiki</a></li>
-	        		<li><a href="/Personal-Wiki-Site-Setup/blog/">Blog </a></li>
+	        		<li><a href="{{ site.url }}">Home</a></li>
+		        	<li><a href="{{ site.url }}/about/">About</a></li>
+	        		<li><a href="{{ site.url }}/wiki/">Wiki</a></li>
+	        		<li><a href="{{ site.url }}/blog/">Blog </a></li>
 	    		</ul>
 			</nav>
 			<div style="clear: both;"></div>
