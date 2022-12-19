@@ -1,22 +1,15 @@
 ---
-title: "Dragon"
-date: 2022-01-01
+title: "Dwarf"
+date: 2022-12-19
 description: "A relevant description (Used for SEO and search)"
-tags: dragon
+tags: dwarf, race
 importance: 5
 abstract: "Leave empty if you don't want to feature an abstract. "
 ---
 
 Example article in wiki. Edit this in markdown.
 
-## Dragon
+## Dwarf
 
-Dragons are a common fantasy antagonist.
+Dwarves are bigger than hobbits.
 
-### Etc.
-
-
-See also: [Dwarf](/wiki/dwarf)
-
-- Dragons of Skyrim
-- Dragons of Middle-earth
