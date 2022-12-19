@@ -45,7 +45,7 @@ if (windowWidth < maxDeviceWidth) {
 {% if page.twitter_image.size > 0 %}
 <meta name="twitter:image:src" content="{{ page.twitter_image }}" />
 {% else %}
-<meta name="twitter:image:src" content="{{ site.url }}/resources/placeholder.png" />
+<meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/resources/placeholder.png" />
 {% endif %}
 
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
+<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/post.css">
