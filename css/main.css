@@ -1,5 +1,5 @@
 :root {
-  --bkg: #ffffff;
+  --bkg: #FCF5E5;
   --font-color: #483838;
   --header-anchor-color: #483838;
   --anchor-hover-color: #42855B;
@@ -117,7 +117,7 @@ strong { font-weight: bolder;}
     margin: 0px;
     font-size: 2em;
     text-decoration: none;
-    font-family: 'Georgia';
+    font-family: 'Luminari';
     font-weight: bold;
 }
 
