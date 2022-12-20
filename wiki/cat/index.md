@@ -5,4 +5,6 @@ description: "Cat"
 tags: cat, kitten
 ---
 
-Cats claw at you when angered.
+[!cat](cat.jpeg)
+
+Cats claw at you when perturbed.
