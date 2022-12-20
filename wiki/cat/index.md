@@ -5,6 +5,6 @@ description: "Cat"
 tags: cat, kitten
 ---
 
-[!cat](cat.jpeg)
+![cat](cat.jpeg)
 
 Cats claw at you when perturbed.
