@@ -1,6 +1,11 @@
 # fantasy-rpg-wiki
 
 Forked from [StrikingLoo's Jekyll template](https://github.com/StrikingLoo/Personal-Wiki-Site-Setup)
+
+## Live site
+
+[Link](https://smburdick.github.io/fantasy-rpg-wiki-template/)
+
 ## Setup
 
 To run the site locally, run
