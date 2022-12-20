@@ -1,5 +1,9 @@
 # fantasy-rpg-wiki
 
+[Live](https://smburdick.github.io/fantasy-rpg-wiki/)
+
+## Setup
+
 To run the site locally, run
 
 ```
