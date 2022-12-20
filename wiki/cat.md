@@ -1,10 +1,8 @@
 ---
 title: "Cat"
-date: 2022-01-01
-description: "A relevant description (Used for SEO and search)"
-tags: dragon
-importance: 5
-abstract: ""
+date: 2022-12-19
+description: "Cat"
+tags: cat, kitten
 ---
 
 ## Cat

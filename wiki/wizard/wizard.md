@@ -1,10 +1,8 @@
 ---
 title: "Wizard"
-date: 2022-01-01
+date: 2022-12-19
 description: "A relevant description (Used for SEO and search)"
-tags: wizard
-importance: 5
-abstract: ""
+tags: wizard, sorcerer
 ---
 
 ## Wizard
