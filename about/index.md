@@ -1,8 +1,8 @@
 ---
 layout: default
-title: About Me
+title: About This Wiki
 ---
 
 # About Me
   
-Write about yourself in markdown
+This is a wiki for fantasy tabletop role playing games.
