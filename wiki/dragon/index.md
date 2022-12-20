@@ -1,9 +1,7 @@
 ---
 title: "Dragon"
 date: 2022-12-19
-description: "A relevant description (Used for SEO and search)"
 tags: dragon, enemy
-abstract: ""
 ---
 
 ![dragon](dragon.jpeg)
