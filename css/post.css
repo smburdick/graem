@@ -31,5 +31,5 @@ div.backButton{
 img[alt=main] { /* the "profile picture" of the wiki page */
   width: 200px;
   float:right;
-  margin: 25px 25px 25px 25px;
+  margin: 0px 5px 5px 5px;
 }
