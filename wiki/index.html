@@ -25,7 +25,7 @@ title: Personal Wiki / Digital Garden
 {% for item in folder1 %}
 {% if item.path contains 'index' %}
 {% else %}
-<a href="{{ item.url }}{{ item.baseurl }}" class="wiki-item" title="{{ item.description }}">
+<a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" class="wiki-item" title="{{ item.description }}">
 {% if item.importance >= 7 %}🌻{% elsif item.importance >= 5 %}🌿{% else %}🌱
 {% endif %} {{ item.title }}</a>
 {% endif %}
