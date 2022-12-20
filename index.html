@@ -1,11 +1,39 @@
 ---
 layout: default
-title: Fantasy RPG Wiki
+title: Wiki
 ---
-<div class="blurb">
-		
-	<ul>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/wiki">📚 Personal Wiki</a> for my notes and most of this site's content.</li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/wiki/navigation-guide">🧭 Index</a> to see a table of contents.</li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/about">🏝️ About</a> To learn more about me.</li>
-	</ul>
+	<h1>{{ page.title }}</h1>
+
+
+<div style = 'text-align:center;'>
+<!-- Html Elements for Search -->
+<input type="text" id="search-input" placeholder="Search the Wiki... (tag-based search)" style='font-size: 1.1rem;text-align:center;min-width:75%;'>
+
+<div id="search-container">
+<ul id="results-container" style='list-style-type:none;'></ul>
+</div>
+   
+</div>
+<br/>
+
+<!-- Script pointing to search-script.js -->
+<script src="{{ site.url }}{{ site.baseurl }}/js/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+
+const windowWidth = window.innerWidth;
+const maxDeviceWidth = 768;
+if (windowWidth > maxDeviceWidth) {
+  var wiki_list = document.querySelectorAll('.wiki-item');
+  for (var wiki_item of wiki_list) {
+    wiki_item.classList.add('slim');
+  }
+}
+</script>
+   
