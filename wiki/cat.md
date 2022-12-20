@@ -5,6 +5,4 @@ description: "Cat"
 tags: cat, kitten
 ---
 
-## Cat
-
 Cats claw at you when angered.
