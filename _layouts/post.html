@@ -23,14 +23,6 @@ if (windowWidth < maxDeviceWidth) {
 
 
 </script>
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@{{ page.twitter_username }}" />
-<meta name="twitter:title" content="{{ page.title }}" />
-<meta name="twitter:description" content="{{ page.description }}" />
-{% if page.twitter_image.size > 0 %}
-<meta name="twitter:image:src" content="{{ page.twitter_image }}" />
-{% else %}
-<meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/resources/placeholder.png" />
-{% endif %}
+
 
 <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/post.css">

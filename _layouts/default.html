@@ -54,6 +54,14 @@
 			</nav>
 			<div style="clear: both;"></div>
 		    </div>
+			<div style="clear: both;text-align:right; font-size: x-large; font-family:Helvetica">
+				<b>
+					{{ site.pages | where_exp: "item" , "item.path contains 'wiki' " | size }}
+				</b>
+			</div>
+			<div style="clear: both;text-align:right; font-family:fantasy">
+					articles in this wiki
+			</div>
 			<div class="container">
 			
 			{{ content }}
@@ -63,8 +71,5 @@
 				</footer>
 			
 			<script defer src="https://kit.fontawesome.com/695103c91f.js" crossorigin="anonymous"></script>
-			{% if page.uses_mathjax %}
-			<script defer src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-			{% endif %}
 		</body>
 	</html>
