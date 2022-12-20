@@ -12,5 +12,5 @@ Dragons are a common fantasy antagonist.
 
 ### See also
 
-- [Dwarf]({{ site.url }}{{ site.baseurl }}/wiki/dwarf)
+- [Dwarf](../dwarf)
 - [Dragons of Middle-earth](https://lotr.fandom.com/wiki/Dragons)
