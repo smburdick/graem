@@ -23,3 +23,21 @@ bundle install
 bundle add jekyll
 bundle exec jekyll serve
 ```
+
+## Creating new wiki pages
+
+The directory structure is:
+```
+wiki
+└── article
+    ├── index.md
+    └── img.jpeg
+[...]
+```
+Each `index.md` file has this header:
+```
+title: "Article"
+date: YYYY-MM-DD
+description: "Description"
+tags: tag1, tag2[, ...]
+```
