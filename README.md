@@ -1,10 +1,12 @@
-# fantasy-rpg-wiki
+# graem
+
+A wiki platform for the Graem campaign setting.
 
 Forked from [StrikingLoo's Jekyll template](https://github.com/StrikingLoo/Personal-Wiki-Site-Setup)
 
 ## Live site
 
-[Link](https://smburdick.github.io/fantasy-rpg-wiki-template/)
+[Link](https://smburdick.github.io/graem)
 
 ## Setup
 
