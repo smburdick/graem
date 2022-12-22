@@ -4,7 +4,7 @@ h1::after {
   border: solid white;
 }
 
-h2::after, h3::after {
+h2::after, h3::after, h4::after {
     content: "#";
     position: relative;
     top: 0em;
@@ -16,8 +16,11 @@ h2::after, h3::after {
 
 h2::after {font-size: 1.4em;}
 h3::after {font-size: 1.2em;}
+h4::after {
+  font-size: 1.0em;
+}
 
-h2:hover::after, h3:hover::after {
+h2:hover::after, h3:hover::after, h4:hover::after {
     visibility: visible;
     opacity: 1;
 }
