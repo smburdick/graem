@@ -16,7 +16,6 @@ To host the site locally, run
 sudo gem install rails
 sudo gem install jekyll
 sudo gem install jekyll bundler
-bundle init
 bundle install
 bundle add jekyll
 bundle exec jekyll serve
