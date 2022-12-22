@@ -1,6 +1,6 @@
 ---
 title: "Oblitus"
-date: 2022-12-21
+date: 2022-12-22
 description: "A lesser southern island of the Mage-States"
 tags: mage, states, lesser, south
 ---
