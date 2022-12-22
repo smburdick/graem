@@ -14,12 +14,13 @@ north of the [Southern Continent](../southern-continent/).
 
 Oblitus is a fiefdom ruled by [King Caeus the Indefatigable](../caeus/).
 The Oblitians are frequently looked down upon by
-denizens of other Mage States as "country bumpkins" due to their agrarian lifestyle
-and lower degree of contributions to the Academy of Magi.
+denizens of other Mage States as "country bumpkins" due to their agrarian
+lifestyle and lower degree of contributions to the Academy of Magi.
 
 #### Famine
 
-Oblitus experienced a severe famine, causing Caeus to commission the aid of a motley crew
-of pirates and profiteers to recover the Amulet of Fluentum from the
+Oblitus experienced a severe famine, causing Caeus to commission the aid of a
+motley crew of pirates and profiteers to recover the Amulet of Fluentum from the
 southern continent, which had been lost for centuries after the siege of Sicco.
-When the amulet was recovered, 
+When the amulet was recovered, the mages summoned a monsoon, ending the famine
+and restoring agriculture to Oblitus. 
