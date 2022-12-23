@@ -6,16 +6,16 @@ kramdown:
   input: GFM
   auto_ids: true
 
+google_analytics: "G-LD2CNN524G"
+
 defaults:
   -
     scope:
       path: ""
     values:
-      twitter_username: "your username"
-      ga_id: "Your google analytics id"
+      ga_id: "G-LD2CNN524G"
     scope:
       path: "wiki/" # an empty string here means all files in the project
     values:
-      importance: 5
       layout: post
       
