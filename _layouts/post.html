@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<head>
-{% if jekyll.environment == 'production' and page.ga_id %}
-{% include analytics.html %}
-{% endif %}
-</head>
-
 <div class="post">
   <h1 style="text-align:left;">{{ page.title }}</h1>    
   <p class="meta" style="text-align:left;">Last updated: {{ page.date | date_to_string }} </p>
@@ -19,9 +13,6 @@ const headings = document.querySelectorAll('h2[id],h3[id]');
 for (var heading of headings) {
     heading.innerHTML = `<a href=#${heading.id}>${heading.innerHTML}</a>`;
 }
-
-
 </script>
-
 
 <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/post.css">
