@@ -9,8 +9,8 @@
 			<link rel="canonical" href="{{site.url}}{{ page.url }}">
 			  <meta name="description" content="{% if page.description %}{{ page.description | strip | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}">
   			<meta property="og:site_name" content="{{ page.title }}">
-
-			{% if jekyll.environment == 'production' and page.ga_id %}
+			
+			{% if jekyll.environment == 'production' and site.ga_id %}
 			{% include analytics.html %}
 			{% endif %}
 
