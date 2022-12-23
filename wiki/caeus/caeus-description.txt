@@ -1,0 +1,7 @@
+Tags: masterpiece, best quality, 8k, hdr, realistic, photo, photorealistic, D&D, {{{solo}}}, D&D character, character art, human, male, {{wizard}}, {{king}}, {{{{{olive skin}}}}}, {{dark skin}}, {{brown hair}}, robe, elderly, weak, worried, tired, greasy hair, wooden throne, {green eyes}, staff, crown
+
+Blocked tags: nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, extra ear, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, anime, signature, copyright, modern, two heads, extra heads, large breasts, bulky, skimpy
+
+Steps: 28
+Scale: 6
+Seed: 1217455398
