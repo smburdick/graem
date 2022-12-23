@@ -1,12 +1,10 @@
-name: Personal Wiki Setup
+name: Graem Wiki
 permalink: /:title
 
 markdown: kramdown
 kramdown:
   input: GFM
   auto_ids: true
-
-google_analytics: "G-LD2CNN524G"
 
 defaults:
   -
