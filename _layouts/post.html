@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<head>
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include analytics.html %}
+{% endif %}
+</head>
+
 <div class="post">
   <h1 style="text-align:left;">{{ page.title }}</h1>    
   <p class="meta" style="text-align:left;">Last updated: {{ page.date | date_to_string }} </p>
