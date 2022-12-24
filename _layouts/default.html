@@ -14,7 +14,6 @@
 			{% include analytics.html %}
 			{% endif %}
 
-			<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
 
 			{% if page.description %}
 			  <meta property="og:description" content="{{ page.description | strip_newlines | strip | truncate: 160 }}">
@@ -35,6 +34,11 @@
   			{% endif %}
   			<meta content="index,follow" name="robots"><!-- All Search Engines -->
   			<meta content="index,follow" name="googlebot"><!-- Google Specific -->
+
+			{% if page.date %}
+			<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/post.css">
+			{% endif %}
+			<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
 
 		</head>
 		<body>
