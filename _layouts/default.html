@@ -58,6 +58,16 @@
 			</div>
 			<div class="container">
 			
+			<!-- Add title and last updated to articles -->
+			{% if page.date %}
+			<h1 style="text-align: left;">
+				{{ page.title }}
+			</h1>
+			<p class="meta" style="text-align:left;">
+				Last updated: {{ page.date | date_to_string }}
+			</p>
+			{% endif %}
+			
 			{{ content }}
 			
 			</div><!-- /.container -->
