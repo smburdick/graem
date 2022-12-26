@@ -21,7 +21,7 @@ and bestowed this power into the Amulet of Fluentem. One of Sicco's centers
 of study and prayer was the Temple of Pluvia Chorus, perched on the top
 of Mount Praceps.
 
-### Demolition
+### Invasion and demolition
 
 The town was besieged by fire cultists who feared the magi's growing power
 and influence in the region. During the invasion, the magi hid the Amulet
