@@ -5,7 +5,7 @@ description: "A ruined port town in the Southern Continent"
 tags: sicco, ruin, southern, continent, praeceps, rain, magi, mage, amulet, fluentum, pluvia
 ---
 
-Sicco is a razed and abandoned port town in the Southern Continent, about
+**Sicco** is a razed and abandoned port town in the Southern Continent, about
 one day's journey by sea south of [Oblitus](../Oblitus/).
 
 ## History

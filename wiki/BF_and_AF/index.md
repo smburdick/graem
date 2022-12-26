@@ -5,5 +5,5 @@ description: "Labels for the number of years before and after the Fall of the Ol
 tags: bf, af
 ---
 
-BF stands for "Before the Fall", and AF "After the Fall", in reference to
+**BF** stands for **Before the Fall**, and **AF** means **After the Fall**, in reference to
 the number of years before or after the Fall of the Old Empire.

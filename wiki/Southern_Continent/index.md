@@ -5,7 +5,7 @@ description: "A remote, arid continent of Graem"
 tags: south, southern, continent, desert, arid
 ---
 
-The Southern Continent is arid and forsaken by most of Graem. It is inhabited
+The **Southern Continent** is arid and forsaken by most of Graem. It is inhabited
 mostly by bandits and opportunistic plunderers seeking treasures lost
 to time.
 

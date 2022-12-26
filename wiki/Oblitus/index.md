@@ -7,7 +7,7 @@ tags: mage, states, lesser, south
 
 ## Geography
 
-Oblitus is one of the southern Mage States. It is less than a day's journey
+**Oblitus** is one of the southern Mage States. It is less than a day's journey
 north of the [Southern Continent](../Southern_Continent/).
 
 ## Society and Politics
