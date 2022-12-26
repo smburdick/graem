@@ -1,18 +1,18 @@
 ---
 title: "Oblitus"
-date: 2022-12-22
+date: 2022-12-26
 description: "A lesser southern island of the Mage-States"
 tags: mage, states, lesser, south
 ---
 
-### Geography
+## Geography
 
 Oblitus is one of the southern Mage States. It is less than a day's journey
-north of the [Southern Continent](../southern-continent/).
+north of the [Southern Continent](../Southern_Continent/).
 
-### Society and Politics
+## Society and Politics
 
-Oblitus is a fiefdom ruled by [King Caeus the Indefatigable](../caeus/).
+Oblitus is a fiefdom ruled by [King Caeus the Indefatigable](../Caeus_V/).
 The Oblitians are frequently looked down upon by
 denizens of other Mage States as "country bumpkins" due to their agrarian
 lifestyle and lower degree of contributions to the Academy of Magi.
