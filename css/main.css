@@ -43,22 +43,21 @@ h2 a:hover, h3 a:hover {
     text-decoration: underline;
 }
 
-h2, h3, h2 a, h3 a, h1, h1 a, h4, h4 a{
+h2, h3, h2 a, h3 a, h1, h1 a, h4, h4 a {
     font-family: 'Lato','Georgia','Helvetica', Verdana;
-}
-h2, h2 a {
-    font-size: 1.4em;
-    line-height: 1.5;
-}
-h3, h3 a {
-    font-size: 1.2em;
     line-height: 1.5;
 }
 
-h4,
-h4 a {
+h2, h2 a {
+    font-size: 1.4em;
+}
+
+h3, h3 a {
+    font-size: 1.2em;
+}
+
+h4, h4 a {
     font-size: 1.0em;
-    line-height: 1.5;
 }
 
 h1,h2,h3, h1 a, h2 a, h3 a, h4, h4 a {
@@ -129,18 +128,23 @@ strong { font-weight: bolder;}
     font-weight: bold;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     nav, .head-banner p {float: none; text-align: center;}
-  nav ul li {display:inline-block; margin-bottom:0.8em; width: 45%;
+    nav ul li {display:inline-block; margin-bottom:0.8em; width: 45%;
     background-color: var(--header-anchor-color);
     padding: .2em; border-radius: 5%;}
-  nav ul {width: 100%;}
-  nav a {padding: 0;}
-  .head-banner p {font-size: 1.5em;}
-  .head-banner {text-align: center;}
-  h1 { font-size: 1.8em;
-    line-height: normal;}
-
+    nav ul {width: 100%;}
+    nav a {padding: 0;}
+    .head-banner p {font-size: 1.5em;}
+    .head-banner {text-align: center;}
+    h1 {font-size: 2.4em;line-height: normal;}
+    img[alt=main] {
+            /* the "profile picture" of the wiki page */
+            display: block;
+            width: 300px;
+            float: none;
+            margin: auto;
+        }
 }
 
 .meta {font-style:italic; text-align: center;}

@@ -16,23 +16,22 @@ h2::after, h3::after, h4::after {
 
 h2::after {font-size: 1.4em;}
 h3::after {font-size: 1.2em;}
-h4::after {
-  font-size: 1.0em;
-}
+h4::after {font-size: 1.0em;}
 
 h2:hover::after, h3:hover::after, h4:hover::after {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
-div.backButton{
+div.backButton {
   position:fixed; 
   top:80%;
   right: 5%;
 }
 
 img[alt=main] { /* the "profile picture" of the wiki page */
-  width: 200px;
+  display: block;
+  width: 250px;
   float:right;
-  margin: 0px 10px 10px 10px;
+  margin: auto;
 }
