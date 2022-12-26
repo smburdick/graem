@@ -33,5 +33,5 @@ img[alt=main] { /* the "profile picture" of the wiki page */
   display: block;
   width: 250px;
   float:right;
-  margin: auto;
+  margin: 10px 10px 0px 10px;
 }
