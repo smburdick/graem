@@ -1,4 +1,4 @@
-# graem
+# Graem Wiki
 
 [![GitHub version](https://badge.fury.io/gh/smburdick%2Fgraem.svg)](https://badge.fury.io/gh/smburdick%2Fgraem)
 ![Build Status](https://github.com/smburdick/graem/actions/workflows/jekyll.yml/badge.svg)
