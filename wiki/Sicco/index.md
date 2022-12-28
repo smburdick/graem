@@ -1,6 +1,6 @@
 ---
 title: "Sicco"
-date: 2022-12-26
+date: 2022-12-27
 description: "A ruined port town in the Southern Continent"
 tags: sicco, ruin, southern, continent, praeceps, rain, magi, mage, amulet, fluentum, pluvia
 ---
