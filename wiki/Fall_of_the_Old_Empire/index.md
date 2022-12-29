@@ -5,8 +5,8 @@ description: "A cataclysmic battle"
 tags: 
 ---
 
-The **Fall of the Old Empire** was a brief, yet cataclysmic battle fought
-mostly in the [Western Mountains]() of Graem. It was thought to be a 50-year conflict,
-lasting from 50 BF to 0 AF, leading to the establishment of the current
-convention for marking the years, between [The Host]() and the mortal races of
-Graem. The battle was mostly a stalemate, 
+The **Fall of the Old Empire** was a cataclysmic battle fought
+mostly in the Western Mountains of Graem between [The Host](../The_Host/) and the mortal races of
+Graem, from 50 BF to 0 AF. The dates are only approximate due to divine temporal
+distortions, though at 0 AF the battle was reduced to a stalemate which has lasted
+from the previous century to the present day.
