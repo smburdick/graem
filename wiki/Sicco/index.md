@@ -8,7 +8,7 @@ tags: sicco, ruin, southern, continent, praeceps, rain, magi, mage, amulet, flue
 **Sicco** is a razed and abandoned port town in the Southern Continent, about
 one day's journey by sea south of [Oblitus](../Oblitus/).
 
-![main](main.png)
+![main](https://smburdick.github.io/graem-wiki-media/sicco.png)
 
 ## History
 
