@@ -1,8 +1,8 @@
 ---
 title: "Fall of the Old Empire"
 date: 2022-12-29
-description: "A cataclysmic battle"
-tags: 
+description: "A cataclysmic battle between the Host and the peoples of Graem"
+tags: fall, old, empire, host
 ---
 
 The **Fall of the Old Empire** was a cataclysmic battle fought
