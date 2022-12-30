@@ -31,7 +31,6 @@ The directory structure is:
 wiki
 └── article
     ├── index.md
-    └── img.jpeg
     [...]
 ```
 Each `index.md` file has this header:
