@@ -6,7 +6,7 @@
 
 [
   {% for item in articles %}
-  {% if item.sitemap or item.path contains 'wiki/' %}
+  {% if item.sitemap or item.path contains 'wiki/' or item.path contains './' %}
     {
 
       "title"    : "{{ item.title | escape }}",
