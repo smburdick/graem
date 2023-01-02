@@ -15,7 +15,7 @@ body {
 p, a, ul li, ol li {
     font-family: 'Helvetica', Verdana;
     font-size: 1.1em;
-    line-height: 1.75;
+    line-height: 1.75em;
     color: var(--font-color);
 }
 
@@ -40,8 +40,8 @@ h2 a, h3 a, h4 a {
 }
 
 h2, h3, h2 a, h3 a, h1, h1 a, h4, h4 a {
-    font-family: 'Lato','Georgia','Helvetica', Verdana;
-    line-height: 1.5;
+    font-family: 'Lato','Georgia','Helvetica', 'Verdana';
+    line-height: 1.5em;
 }
 
 h2, h2 a {
@@ -117,15 +117,15 @@ strong { font-weight: bolder;}
 .head-banner p {
     float: left;
     color: var(--font-color);
-    padding: 0px;
-    margin: 0px;
+    padding: 0em;
+    margin: 0em;
     font-size: 2em;
     text-decoration: none;
     font-family: 'Luminari';
     font-weight: bold;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 34em) {
     nav, .head-banner p {float: none; text-align: center;}
     nav ul li {display:inline-block; margin-bottom:0.8em; width: 45%;
     background-color: var(--header-anchor-color);
@@ -138,7 +138,7 @@ strong { font-weight: bolder;}
     img[alt=main] {
             /* the "profile picture" of the wiki page */
             display: block;
-            width: 300px;
+            width: 30em;
             float: none;
             margin: auto;
         }
@@ -146,24 +146,31 @@ strong { font-weight: bolder;}
 
 .meta {font-style:italic; text-align: center;}
 
-img { max-width: 512px;
-  width: 90%; height: auto;   margin-left: auto;
-  margin-right: auto; margin-top: 1em; display: block; text-align: center;}
+img {
+  max-width: 32em;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  display: block;
+  text-align: center;
+}
 
 blockquote {
   width:85%;
   margin:1em auto;
-  font-family:Open Sans;
+  font-family:'Open Sans';
   font-style:italic;
 
   font-size: 1.1em;
-  line-height: 1.75;
+  line-height: 1.75em;
   color: var(--font-color);
 
-  background:#EfEfEf;
+  background:white;
 
   padding:1.2em 1.4em 1.2em 1.4em;
-  border-left:10px solid var(--header-anchor-color) ;
+  border-left:1em solid var(--header-anchor-color) ;
   position: relative;
   
 }
@@ -180,7 +187,7 @@ pre, code {background-color: #444; color: #fff; font-family: Verdana; padding: 1
   vertical-align: middle;
   text-align: center;
   font-size: 1.1em;
-  margin:3px;
+  margin:0.1875em;
   text-decoration: none;
   font-weight: bold;
   background-color: var(--header-anchor-color);
