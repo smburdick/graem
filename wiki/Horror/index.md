@@ -6,7 +6,7 @@ tags: horror
 ---
 
 The **Horror** is a dark, mysterious entity said to be the "root of all evil"
-on Graem. During the Primordial Era (before and up to 14,000 BF), Horror
+on Graem. During the [Primordial Era](../Primordial_Era), Horror
 fell unto Graem and unleashed chaos unto it, shattering its mostly now-forgotten
 civilization. Before Horror was finally contained, it weakened the boundaries
 around Graem's reality, ushering the possibility of further planar incursions

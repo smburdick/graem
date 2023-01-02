@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from sys import argv
 from os import mkdir
 from datetime import date
@@ -14,5 +15,7 @@ for name in argv[1:]:
             file.write("description: \"\"\n")
             file.write("tags: \n")
             file.write("---\n")
+        print("Created new page: " + name)
     except IOError as e:
         print(e)
+print("\nExiting...")
