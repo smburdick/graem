@@ -15,7 +15,7 @@ body {
 p, a, ul li, ol li {
     font-family: 'Helvetica', Verdana;
     font-size: 1.1em;
-    line-height: 1.75;
+    line-height: 1.75em;
     color: var(--font-color);
 }
 
@@ -25,44 +25,22 @@ p a, ul li a {
     border-bottom: 3px solid var(--anchor-hover-color);
 }
 
-p a:hover, ul li a:hover {
-    border-bottom: 3px solid var(--font-color);
-}
-
-h1, h1 a {
-    font-size: 2.2em;
-    text-align: center;
-    line-height: 1.4em;
-}
-
 h2 a, h3 a, h4 a {
     text-decoration: none;
 }
 
-h2 a:hover, h3 a:hover {
-    text-decoration: underline;
-}
-
-h2, h3, h2 a, h3 a, h1, h1 a, h4, h4 a {
-    font-family: 'Lato','Georgia','Helvetica', Verdana;
-    line-height: 1.5;
-}
-
-h2, h2 a {
-    font-size: 1.4em;
-}
-
-h3, h3 a {
-    font-size: 1.2em;
-}
-
-h4, h4 a {
-    font-size: 1.0em;
-}
-
-h1,h2,h3, h1 a, h2 a, h3 a, h4, h4 a {
+h1, h1 a, h2, h3, h2 a, h3 a, h4, h4 a {
+    font-family: 'Lato','Georgia','Helvetica', 'Verdana';
+    line-height: 1.5em;
     font-weight: bold;
-    color:var(--header-anchor-color);
+    color: var(--header-anchor-color);
+}
+
+h1,
+h1 a {
+    font-size: 2.6em;
+    text-align: left;
+    line-height: 1.4em;
 }
 
 footer {
@@ -79,7 +57,9 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
 }
+
 footer ul li {margin-right: 1em;}
+
 footer a {
     text-decoration: none;
     border-bottom: none;
@@ -87,6 +67,7 @@ footer a {
 }
 
 nav ul li a, footer ul li a {border-bottom: none;}
+
 nav ul li a:hover, footer ul li a:hover {
     border-bottom: none;
     text-decoration: underline;
@@ -100,7 +81,8 @@ nav a {
     background-color: var(--header-anchor-color);
     color: var(--bkg);
     text-decoration: none;
-    border-bottom: none;}
+    border-bottom: none;
+}
 
 strong { font-weight: bolder;}
 
@@ -120,15 +102,26 @@ strong { font-weight: bolder;}
 .head-banner p {
     float: left;
     color: var(--font-color);
-    padding: 0px;
-    margin: 0px;
+    padding: 0em;
+    margin: 0em;
     font-size: 2em;
     text-decoration: none;
     font-family: 'Luminari';
     font-weight: bold;
 }
 
-@media only screen and (max-width: 550px) {
+img {
+    max-width: 32em;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 34em) {
     nav, .head-banner p {float: none; text-align: center;}
     nav ul li {display:inline-block; margin-bottom:0.8em; width: 45%;
     background-color: var(--header-anchor-color);
@@ -137,36 +130,33 @@ strong { font-weight: bolder;}
     nav a {padding: 0;}
     .head-banner p {font-size: 1.5em;}
     .head-banner {text-align: center;}
-    h1 {font-size: 2.4em;line-height: normal;}
+    /* the "profile picture" of the wiki page */
     img[alt=main] {
-            /* the "profile picture" of the wiki page */
-            display: block;
-            width: 300px;
-            float: none;
-            margin: auto;
-        }
+        display: block;
+        width: 30em;
+        float: none;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .meta {font-style:italic; text-align: center;}
 
-img { max-width: 512px;
-  width: 90%; height: auto;   margin-left: auto;
-  margin-right: auto; margin-top: 1em; display: block; text-align: center;}
-
 blockquote {
   width:85%;
   margin:1em auto;
-  font-family:Open Sans;
+  font-family:'Open Sans';
   font-style:italic;
 
   font-size: 1.1em;
-  line-height: 1.75;
+  line-height: 1.75em;
   color: var(--font-color);
 
-  background:#EfEfEf;
+  background:white;
 
   padding:1.2em 1.4em 1.2em 1.4em;
-  border-left:10px solid var(--header-anchor-color) ;
+  border-left:1em solid var(--header-anchor-color) ;
   position: relative;
   
 }
@@ -177,18 +167,13 @@ blockquote::after{
 
 pre, code {background-color: #444; color: #fff; font-family: Verdana; padding: 10px; line-height: 1.75;}
 
-.wiki-item:hover {
-  background-color:var(--wiki-bkg-color-hover);
-  text-decoration: underline;
-}
-
 .wiki-item {
   padding: .3em;
   display:inline-block;
   vertical-align: middle;
   text-align: center;
   font-size: 1.1em;
-  margin:3px;
+  margin:0.1875em;
   text-decoration: none;
   font-weight: bold;
   background-color: var(--header-anchor-color);
