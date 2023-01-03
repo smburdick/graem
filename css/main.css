@@ -38,13 +38,9 @@ h1, h1 a, h2, h3, h2 a, h3 a, h4, h4 a {
 
 h1,
 h1 a {
-    font-size: 2.2em;
+    font-size: 2.6em;
     text-align: left;
     line-height: 1.4em;
-}
-
-h2, h2 a {
-    font-size: 1.4em;
 }
 
 footer {
@@ -112,6 +108,17 @@ strong { font-weight: bolder;}
     text-decoration: none;
     font-family: 'Luminari';
     font-weight: bold;
+}
+
+img {
+    max-width: 32em;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
 }
 
 @media only screen and (max-width: 34em) {
