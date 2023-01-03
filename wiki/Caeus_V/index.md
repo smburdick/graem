@@ -11,7 +11,7 @@ tags: king, caeus, indefatigable, oblitus, mage, state
 
 ## Early life
 
-Caeus is fifth in line of the House of Enizhal following his father Caeus IV.
+Caeus is fifth in line of the House of Enizhal, following his father Caeus IV.
 At only thirty-five during his coronation, he was unprepared for
 the responsibilities of a monarch. He frequently delegated his administrative
 duties to the council, as he spent most of his days sailing, having
@@ -24,8 +24,8 @@ Continent and met fierce trade winds, which ran his sailing yacht aground,
 tearing it asunder. He survived on a remote island for five days, surviving
 by his own wits and whichever conjuration spells he could recall from his
 neglected studies. Upon his rescue, he was proclaimed "indefatigable" for
-his persistence, however, Caeus was traumatized by the event, as he learned of his
-father's death in battle upon returning home, and he did not speaking at
+his persistence. However, Caeus was traumatized by the event, as he learned of his
+father's death in battle upon returning home; he did not speak at
 all during the enthronement ceremony. He did not develop a fear of sailing, but
 used it as a distraction from work, which became a weak spot
 for opportunistic advisors and foreign agents.
