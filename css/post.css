@@ -50,3 +50,9 @@ img[alt=main] { /* the "profile picture" of the wiki page */
   float:right;
   margin: 10px 10px 0px 10px;
 }
+
+h1:after {
+  content: ' ';
+  display: block;
+  border: 1px solid white;
+}
