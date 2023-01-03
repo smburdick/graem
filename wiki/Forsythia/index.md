@@ -28,6 +28,3 @@ Forsythia, despite an orc empire never emerging. Followers of Unt attempted to e
 the orcs, and followers of Curach, Krrsk and Gao sided with them in the battle, but the orcs left
 the forests after years of bloodshed. Mixed feelings towards the orcs, defined by the factions in this war,
 remain among the Forsythian elves in the present.
-
-### Gnomish War (3,500 BF)
-
