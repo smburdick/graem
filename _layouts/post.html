@@ -4,10 +4,3 @@ layout: default
 
 {{ content | toc }}
 
-<script>
-const headings = document.querySelectorAll('h2[id],h3[id]');
-for (var heading of headings) {
-    heading.innerHTML = `<a href=#${heading.id}>${heading.innerHTML}</a>`;
-}
-</script>
-
