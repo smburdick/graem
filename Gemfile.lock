@@ -78,7 +78,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  ace (~> 0.4.9)
   jekyll (~> 4.2)
   webrick
 
