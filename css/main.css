@@ -64,11 +64,21 @@ footer a {
     text-decoration: none;
     border-bottom: none;
     color: var(--header-anchor-color);
+    opacity: 0.5;
+}
+
+footer a:hover {
+    opacity: 1;
 }
 
 nav ul li a, footer ul li a {border-bottom: none;}
 
 nav ul li a:hover, footer ul li a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+#graem-wiki-name:hover {
     border-bottom: none;
     text-decoration: underline;
 }
