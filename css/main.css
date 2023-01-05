@@ -2,8 +2,8 @@
   --bkg: #5A5A5A;
   --font-color: white;
   --header-anchor-color: white;
-  --anchor-hover-color: #90EE90;
-  --wiki-bkg-color-hover: #52956B;
+  --underline-color: #44d3e6;
+  --underline-hover-color: #2e62c2;
 }
 
 body {
@@ -22,7 +22,12 @@ p, a, ul li, ol li {
 p a, ul li a {
     text-decoration: none;
     font-size: 1em;
-    border-bottom: 3px solid var(--anchor-hover-color);
+    border-bottom: 2px solid var(--underline-color);
+}
+
+p a:hover, ul li a:hover {
+    transition-duration: 0.2s;
+    border-bottom: 2px solid var(--underline-hover-color);
 }
 
 h2 a, h3 a, h4 a {
