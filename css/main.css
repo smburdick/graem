@@ -2,8 +2,7 @@
   --bkg: #5A5A5A;
   --font-color: white;
   --header-anchor-color: white;
-  --underline-color: #44d3e6;
-  --underline-hover-color: #2e62c2;
+  --underline-color: #79e5e5;
 }
 
 body {
@@ -27,7 +26,7 @@ p a, ul li a {
 
 p a:hover, ul li a:hover {
     transition-duration: 0.2s;
-    border-bottom: 2px solid var(--underline-hover-color);
+    color: var(--underline-color);
 }
 
 h2 a, h3 a, h4 a {
