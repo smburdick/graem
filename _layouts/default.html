@@ -64,9 +64,13 @@
 			<div class="container">
 			
 			{% if page.date %}
-			<!-- Add title and last updated to articles -->
 			<h1 style="text-align: left;">{{ page.title }}</h1>
-			<p class="meta" style="text-align:left;">Last updated: {{ page.date | date_to_string }}</p>
+			<p style="text-align:left;">
+				<i>Last updated: {{ page.date | date_to_string }}</i>
+				<span style="float:right">
+					<a style="clear: both;text-align:right" href="{{ site.url }}{{ site.baseurl }}/wiki/edit/{{ page.title | replace: ' ', '_' }}">✎ Edit</a>
+				</span>
+			</p>
 			{% endif %}
 			
 			{{ content }}

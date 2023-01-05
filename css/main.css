@@ -155,7 +155,10 @@ img {
     }
 }
 
-.meta {font-style:italic; text-align: center;}
+.meta {
+    font-style:italic;
+    text-align: center;
+}
 
 blockquote {
   width:85%;
