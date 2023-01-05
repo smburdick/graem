@@ -7,10 +7,11 @@
   "author": "<burdick.52@osu.edu>",
   "license": "MIT",
   "private": false,
-    "dependencies": {
+  "dependencies": {
     "ace-builds": "^1.13.1",
     "mermaid": "^9.1.2",
-    "mousetrap": "^1.6.5"
+    "mousetrap": "^1.6.5",
+    "phantomjs": "^2.1.7"
   },
   "engines": {
     "node": ">=16.15.0"
