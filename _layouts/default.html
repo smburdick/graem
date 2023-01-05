@@ -50,13 +50,9 @@
 		</head>
 		<body>
 			<div class="head-banner">
-			<p style="font-family:Arial, Helvetica, sans-serif;">Graem</p>
-			<nav>
-	    		<ul>
-	        		<li><a href="{{ site.url }}{{ site.baseurl }}">Wiki</a></li>
-		        	<li><a href="{{ site.url }}{{ site.baseurl }}/about/">About</a></li>
-	    		</ul>
-			</nav>
+			<a href="{{ site.url }}{{ site.baseurl }}">
+				<p style="font-family:Arial, Helvetica, sans-serif;">Graem</p>
+			</a>
 			<div style="clear: both;"></div>
 		    </div>
 			<div style="clear: both;text-align:right; font-size: x-large; font-family:Helvetica; color:white">
@@ -85,7 +81,9 @@
 			{% endif %}
 			
 			</div><!-- /.container -->
-			<footer></footer>
+			<footer>
+				<a href="{{ site.url }}{{ site.baseurl }}/about/">About</a>
+			</footer>
 			
 			<script defer src="https://kit.fontawesome.com/695103c91f.js" crossorigin="anonymous"></script>
 		</body>
