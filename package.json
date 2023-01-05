@@ -1,0 +1,18 @@
+{
+  "name": "graem",
+  "version": "1.0.0",
+  "description": "A wiki for the Graem campaign setting",
+  "main": "index.js",
+  "repository": "https://github.com/smburdick/graem.git",
+  "author": "<burdick.52@osu.edu>",
+  "license": "MIT",
+  "private": false,
+    "dependencies": {
+    "ace-builds": "^1.13.1",
+    "mermaid": "^9.1.2",
+    "mousetrap": "^1.6.5"
+  },
+  "engines": {
+    "node": ">=16.15.0"
+  }
+}

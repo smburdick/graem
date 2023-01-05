@@ -80,9 +80,6 @@
     
 
     $('textarea[id="gollum-editor-body"]').each(function () {
-
-      console.log("running editor function in textarea")
-
       var textarea = $(this);
       var mode = textarea.attr("data-markup-lang") ? textarea.attr("data-markup-lang") : "markdown"
       var editDiv = $('<div>', {

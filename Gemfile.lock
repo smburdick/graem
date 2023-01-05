@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ace (0.4.9)
+      template-inheritance
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
@@ -12,6 +14,10 @@ GEM
     ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
+    haml (6.1.1)
+      temple (>= 0.8.2)
+      thor
+      tilt
     http_parser.rb (0.8.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
@@ -54,8 +60,14 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
+    template-inheritance (0.3.1)
+      haml
+      tilt
+    temple (0.9.1)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thor (1.2.1)
+    tilt (2.0.11)
     unicode-display_width (1.8.0)
     webrick (1.7.0)
 
@@ -66,6 +78,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  ace (~> 0.4.9)
   jekyll (~> 4.2)
   webrick
 
