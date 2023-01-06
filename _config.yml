@@ -8,6 +8,8 @@ kramdown:
 
 ga_id: "G-LD2CNN524G"
 
+sign_in_enabled: false
+
 defaults:
   -
     scope:

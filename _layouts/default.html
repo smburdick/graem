@@ -51,6 +51,7 @@
 		<body>
 			<div class="head-banner">
 			<a href="{{ site.url }}{{ site.baseurl }}"><p id="graem-wiki-name" style="font-family:Arial, Helvetica, sans-serif; clear:both;">Graem</p></a>
+			{% if site.sign_in_enabled %}
 			<span style="float: right;">
 				<script src="https://accounts.google.com/gsi/client" async defer></script>
 				<div id="g_id_onload" data-client_id="343412610918-m4jpemee0mpvj3c9tbfma63g1r0v3bkh.apps.googleusercontent.com"
@@ -61,6 +62,7 @@
 					data-size="large" data-logo_alignment="left">
 				</div>
 			</span>
+			{% endif %}
 			<div style="clear: both;"></div>
 		    </div>
 			<div style="clear: both;text-align:right; font-size: x-large; font-family:Helvetica; color:white">
