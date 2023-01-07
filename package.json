@@ -11,9 +11,14 @@
     "ace-builds": "^1.14.0",
     "mermaid": "^9.1.2",
     "mousetrap": "^1.6.5",
-    "phantomjs": "^2.1.7"
+    "phantomjs": "^2.1.7",
+    "webpack": "^5.75.0"
   },
   "engines": {
     "node": ">=16.15.0"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
   }
 }
