@@ -18,7 +18,7 @@ sized port town at the foot of Mount Praeceps.
 ### Rain Mages
 
 Because of its proximity to the Mage States and dry climate, many Rain Mages
-were put to work here. They learned how to summon monsoons and hurricanes,
+were deployed to Sicco. They learned how to summon monsoons and hurricanes,
 and bestowed this power unto the [Amulet of Fluentem](../Southern_Continent/#amulet-of-fluentum).
 One of Sicco's centers of study and prayer was the Temple of Pluvia Chorus,
 perched on the top of Mount Praeceps.
