@@ -15,7 +15,7 @@ Caeus is fifth in line of the House of Enizhal, following his father Caeus IV.
 At only thirty-five during his coronation, he was unprepared for
 the responsibilities of a monarch. He frequently delegated his administrative
 duties to the council, as he spent most of his days sailing, having
-barely passed his examinations just a year prior to his investiture.
+barely passed his examinations just a year prior to his coronation.
 
 ### Coronation
 
