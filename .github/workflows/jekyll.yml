@@ -32,6 +32,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with: persist-credentials: false
       - name: Setup Ruby
         uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa # v1.115.3
         with:
@@ -41,6 +42,34 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
+      - name: "Get yarn cache directory path"
+        id: yarn-cache-path-dir
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: "Set up yarn cache"
+        uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: ${{ runner.os }}-yarn-
+      - name: "Set up bundler cache"
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gems-
+      - name: "Use Node.js"
+        uses: actions/setup-node@v1
+        with: { node-version: '12.x' }
+      - name: "Use Ruby"
+        uses: actions/setup-ruby@v1
+        with: { ruby-version: '2.7.1' }
+      - name: "Set up dependencies"
+        run: |
+          yarn install --frozen-lockfile
+          bundle config set path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - run: yarn build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
