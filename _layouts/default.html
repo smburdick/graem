@@ -72,17 +72,34 @@
 			{% if page.date %}
 			<!-- Add title and last updated to articles -->
 			<h1 style="text-align: left;">{{ page.title }}</h1>
-			<p class="meta" style="text-align:left;">Last updated: {{ page.date | date_to_string }}</p>
+			<div>
+				<p class="meta" style="text-align:left;">Last updated: {{ page.date | date_to_string }}
+					<span style="text-align: right;">
+						<p><a id="wiki-edit-link" href="https://">✏️ Edit on GitHub</a></p>
+					</span>
+			</div>
+			
+			</p>
 			{% endif %}
 			
 			{{ content }}
 
 			{% if page.date %}
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 			<script>
+				// add header links
 				const headings = document.querySelectorAll('h2[id],h3[id]');
 				for (var heading of headings) {
 					heading.innerHTML = `<a href=#${heading.id}>${heading.innerHTML}</a>`;
 				}
+				// add GitHub edit link
+				$(document).ready(function () {
+					$('a[href^="https://"]').each(function () {
+						var articleName = '{{ page.title }}'.replace(' ', '_');
+						var newUrl = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + "/index.md";
+						$(this).attr("href", newUrl); // Set herf value
+					});
+				});
 			</script>
 			{% endif %}
 			
