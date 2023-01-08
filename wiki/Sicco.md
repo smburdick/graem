@@ -6,7 +6,7 @@ tags: sicco, ruin, southern, continent, praeceps, rain, magi, mage, amulet, flue
 ---
 
 **Sicco** is a razed and abandoned port town in the Southern Continent, about
-one day's journey by sea south of [Oblitus](../Oblitus/).
+one day's journey by sea south of [Oblitus](Oblitus).
 
 ![main](https://smburdick.github.io/graem-wiki-media/sicco.png)
 
@@ -19,7 +19,7 @@ sized port town at the foot of Mount Praeceps.
 
 Because of its proximity to the Mage States and dry climate, many Rain Mages
 were put to work here. They learned how to summon monsoons and hurricanes,
-and bestowed this power unto the [Amulet of Fluentem](../Southern_Continent/#amulet-of-fluentum).
+and bestowed this power unto the [Amulet of Fluentem](Southern_Continent#amulet-of-fluentum).
 One of Sicco's centers of study and prayer was the Temple of Pluvia Chorus,
 perched on the top of Mount Praeceps.
 
