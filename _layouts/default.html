@@ -70,46 +70,30 @@
 			<div class="container">
 			
 
-			{% if page.date %}
+			{% if page.date and page.title %}
 			<!-- Add title and last updated to articles -->
 			<h1 style="text-align: left;">{{ page.title }}</h1>
-
 			{% endif %}
 			
 			{{ content }}
 
 			{% if page.date %}
-			<br>
-			<p class="meta" style="text-align:left;" id="last-updated">Last updated: {{ page.date | date_to_string }}
-			<span style="float: right; font-style: normal;">
-			<a id="wiki-edit-link" href="https://">✎ Edit on GitHub</a>
-			</span>
+			<p class="meta" style="text-align:left;" id="last-updated">
+				<span style="float: right; font-style: normal;"><a id="wiki-edit-link" href="https://">✎ Edit on GitHub</a></span><br>
 			</p>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-			<script type="module">
-				import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+			<script type="text/javascript">
 				// add header links
 				const headings = document.querySelectorAll('h2[id],h3[id]');
 				for (var heading of headings) {
 					heading.innerHTML = `<a href=#${heading.id}>${heading.innerHTML}</a>`;
 				}
 				var tokens = $(location).attr('href').split('/');
-				var articleName = tokens[tokens.length - 2];
-				const url = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + "/index.md";
-				const octokit = new Octokit();
+				var articleName = tokens[tokens.length - 1];
+				var newUrl = "https://github.com/smburdick/graem/edit/{{ site.gh_branch }}/wiki/" + articleName + ".md";
 				$(document).ready(function () {
-					$('a[href^="https://"]').each(function () {
-						// { page.title } isn't guaranteed to match the URL,
-						// so we get the GitHub url this way.
-						var tokens = $(location).attr('href').split('/');
-						var articleName = tokens[tokens.length - 1];
-						var newUrl = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + ".md";
-						$(this).attr("href", newUrl); // Set herf value
-						$(this).attr("href", url);
-					});
-					$('p[id^="last-updated"]').each(function () {
-						// Compare: https://docs.github.com/en/rest/reference/repos/#list-organization-repositories
-						
+					$('a[href^="https://"]').each(function () { // Edit with GitHub
+						$(this).attr("href", newUrl);
 					});
 				});
 			</script>
@@ -117,9 +101,12 @@
 			
 			</div><!-- /.container -->
 			<footer>
+				<ul>
 				{% if page.title != "About This Wiki" %}
-				<a href="{{ site.url }}{{ site.baseurl }}/about/">About</a>
+				<li><a href="{{ site.url }}{{ site.baseurl }}/about/">About</a></li>
 				{% endif %}
+				<li><a href="https://github.com/smburdick/graem/new/master/wiki">New article</a></li>
+				</ul>
 			</footer>
 			
 			<script defer src="https://kit.fontawesome.com/695103c91f.js" crossorigin="anonymous"></script>
