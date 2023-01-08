@@ -99,6 +99,12 @@
 				const octokit = new Octokit();
 				$(document).ready(function () {
 					$('a[href^="https://"]').each(function () {
+						// { page.title } isn't guaranteed to match the URL,
+						// so we get the GitHub url this way.
+						var tokens = $(location).attr('href').split('/');
+						var articleName = tokens[tokens.length - 1];
+						var newUrl = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + ".md";
+						$(this).attr("href", newUrl); // Set herf value
 						$(this).attr("href", url);
 					});
 					$('p[id^="last-updated"]').each(function () {
