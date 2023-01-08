@@ -92,9 +92,11 @@
 				// add GitHub edit link
 				$(document).ready(function () {
 					$('a[href^="https://"]').each(function () {
+						// { page.title } isn't guaranteed to match the URL,
+						// so we get the GitHub url this way.
 						var tokens = $(location).attr('href').split('/');
-						var articleName = tokens[tokens.length - 2];
-						var newUrl = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + "/index.md";
+						var articleName = tokens[tokens.length - 1];
+						var newUrl = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + ".md";
 						$(this).attr("href", newUrl); // Set herf value
 					});
 				});
