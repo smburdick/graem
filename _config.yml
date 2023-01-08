@@ -7,7 +7,7 @@ kramdown:
   auto_ids: true
 
 ga_id: "G-LD2CNN524G"
-
+gh_branch: "master"
 sign_in_enabled: false
 
 defaults:

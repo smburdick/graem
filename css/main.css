@@ -203,3 +203,12 @@ pre, code {background-color: #444; color: #fff; font-family: Verdana; padding: 1
 }
 
 .search-results ul li {margin-top: .9em;}
+
+.review_bottom li {
+    list-style: none;
+}
+
+.review_bottom li:after {
+    content: "\A";
+    white-space: pre;
+}
