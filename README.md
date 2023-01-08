@@ -26,7 +26,7 @@ bundle exec jekyll serve
 
 ## Creating new wiki pages
 
-Each `index.md` file has this header:
+Each article has this header:
 ```
 ---
 title: "Article"
