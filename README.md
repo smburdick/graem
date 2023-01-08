@@ -26,13 +26,6 @@ bundle exec jekyll serve
 
 ## Creating new wiki pages
 
-The directory structure is:
-```
-wiki
-└── article
-    ├── index.md
-    [...]
-```
 Each `index.md` file has this header:
 ```
 ---
@@ -41,4 +34,6 @@ date: YYYY-MM-DD
 description: "Description"
 tags: tag1, tag2[, ...]
 ---
+
+Tags are used by the search bar.
 ```
