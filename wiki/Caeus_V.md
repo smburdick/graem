@@ -5,7 +5,7 @@ description: "Sovereign of Oblitus"
 tags: king, caeus, indefatigable, oblitus, mage, state
 ---
 
-**Caeus V the Indefatigable** is the sovereign of [Oblitus](../Oblitus/).
+**Caeus V the Indefatigable** is the sovereign of [Oblitus](Oblitus).
 
 ![main](https://smburdick.github.io/graem-wiki-media/caeus_v.png)
 
