@@ -34,6 +34,5 @@ date: YYYY-MM-DD
 description: "Description"
 tags: tag1, tag2[, ...]
 ---
-
-Tags are used by the search bar.
 ```
+Tags are used by the search bar.
