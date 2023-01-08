@@ -69,33 +69,43 @@
 			</div>
 			<div class="container">
 			
+
 			{% if page.date %}
 			<!-- Add title and last updated to articles -->
 			<h1 style="text-align: left;">{{ page.title }}</h1>
-			<p class="meta" style="text-align:left;">Last updated: {{ page.date | date_to_string }}
-			<span style="float: right; font-style: normal;">
-				<a id="wiki-edit-link" href="https://">✎ Edit on GitHub</a>
-			</span>
-			</p>
+
 			{% endif %}
 			
 			{{ content }}
 
 			{% if page.date %}
+			<br>
+			<p class="meta" style="text-align:left;" id="last-updated">Last updated: {{ page.date | date_to_string }}
+			<span style="float: right; font-style: normal;">
+			<a id="wiki-edit-link" href="https://">✎ Edit on GitHub</a>
+			</span>
+			</p>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+			<script type="module">
+				import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+			</script>
 			<script>
 				// add header links
 				const headings = document.querySelectorAll('h2[id],h3[id]');
 				for (var heading of headings) {
 					heading.innerHTML = `<a href=#${heading.id}>${heading.innerHTML}</a>`;
 				}
-				// add GitHub edit link
+				var tokens = $(location).attr('href').split('/');
+				var articleName = tokens[tokens.length - 2];
+				const url = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + "/index.md";
+				const octokit = new Octokit();
 				$(document).ready(function () {
 					$('a[href^="https://"]').each(function () {
-						var tokens = $(location).attr('href').split('/');
-						var articleName = tokens[tokens.length - 2];
-						var newUrl = "https://github.com/smburdick/graem/blob/editor/wiki/" + articleName + "/index.md";
-						$(this).attr("href", newUrl); // Set herf value
+						$(this).attr("href", url);
+					});
+					$('p[id="last-updated"]').each(function () {
+						// Compare: https://docs.github.com/en/rest/reference/repos/#list-organization-repositories
+						
 					});
 				});
 			</script>
