@@ -88,8 +88,6 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 			<script type="module">
 				import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
-			</script>
-			<script>
 				// add header links
 				const headings = document.querySelectorAll('h2[id],h3[id]');
 				for (var heading of headings) {
@@ -103,7 +101,7 @@
 					$('a[href^="https://"]').each(function () {
 						$(this).attr("href", url);
 					});
-					$('p[id="last-updated"]').each(function () {
+					$('p[id^="last-updated"]').each(function () {
 						// Compare: https://docs.github.com/en/rest/reference/repos/#list-organization-repositories
 						
 					});
