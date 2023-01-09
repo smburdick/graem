@@ -30,7 +30,6 @@ Each article has this header:
 ```
 ---
 title: "Article"
-date: YYYY-MM-DD
 description: "Description"
 tags: tag1, tag2[, ...]
 ---

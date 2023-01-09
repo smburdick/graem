@@ -21,10 +21,9 @@
 	  		{% endif %}
 			
 	  		<meta property="og:locale" content="en_US">
-	  		{% if page.date %}
+	  		{% if page.tags %}
 			<meta property="og:title" content="{{ page.title }}">
 			<meta property="og:type" content="article">
-			<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 			<meta property="article:author" content="{{ site.url }}/">
 		  	{% endif %}
 		  	
@@ -39,7 +38,7 @@
 
 			<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
 			
-			{% if page.date %}
+			{% if page.tags %}
 			<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/css/post.css">
 			{% endif %}
 
@@ -70,15 +69,15 @@
 			<div class="container">
 			
 
-			{% if page.date and page.title %}
+			{% if page.tags and page.title %}
 			<!-- Add title and last updated to articles -->
 			<h1 style="text-align: left;">{{ page.title }}</h1>
 			{% endif %}
 			
 			{{ content }}
 
-			{% if page.date %}
-			<p class="meta" style="text-align:left;" id="last-updated">
+			{% if page.tags %}
+			<p class="meta" style="text-align:left;">
 				<span style="float: right; font-style: normal;"><a id="wiki-edit-link" href="https://">✎ Edit on GitHub</a></span><br>
 			</p>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
