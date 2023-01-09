@@ -16,7 +16,9 @@
 }
 
 #graem-wiki-name {
-    font-family: var(--font-family);
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
 }
 
 body {
