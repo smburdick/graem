@@ -54,5 +54,5 @@ img[alt=main] { /* the "profile picture" of the wiki page */
 h1:after {
   content: ' ';
   display: block;
-  border: 1px solid white;
+  border: 1px solid var(--font-color);
 }

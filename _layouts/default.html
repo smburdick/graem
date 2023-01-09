@@ -5,7 +5,6 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="icon" type="image/x-icon" href="https://smburdick.github.io/graem-wiki-media/favicon.ico"/>
             <title>{% if page.title != blank %}{{ page.title }} | {% endif %}{{ site.name }}</title>			
-			<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 			<link rel="canonical" href="{{site.url}}{{ page.url }}">
 			<meta name="description" content="{% if page.description %}{{ page.description | strip | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}">
   			<meta property="og:site_name" content="{{ page.title }}">
@@ -45,7 +44,7 @@
 		</head>
 		<body>
 			<div class="head-banner">
-			<a href="{{ site.url }}{{ site.baseurl }}"><p id="graem-wiki-name" style="font-family:Arial, Helvetica, sans-serif; clear:both;">Graem</p></a>
+			<a href="{{ site.url }}{{ site.baseurl }}"><p id="graem-wiki-name">Graem</p></a>
 			{% if site.sign_in_enabled %}
 			<span style="float: right;">
 				<script src="https://accounts.google.com/gsi/client" async defer></script>
