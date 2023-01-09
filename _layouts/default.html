@@ -60,11 +60,11 @@
 			{% endif %}
 			<div style="clear: both;"></div>
 		    </div>
-			<div style="clear: both;text-align:right; font-size: x-large; font-family:Helvetica; color:white">
+			<div style="clear: both;text-align:right; font-size: x-large; font-family:Helvetica; color:var(--font-color)">
 			<b>{{ site.pages | where_exp: "item" , "item.path contains 'wiki' " | size }}</b>
 			</div>
-			<div style="clear: both;text-align:right; font-family:Helvetica; color: white">
-			<i>articles in this wiki</i>
+			<div class="meta" style="text-align:right; color: var(--font-color);">
+				<i>articles in this wiki</i>
 			</div>
 			<div class="container">
 			
@@ -78,7 +78,7 @@
 
 			{% if page.tags %}
 			<p class="meta" style="text-align:left;">
-				<span style="float: right; font-style: normal;"><a id="wiki-edit-link" href="https://">✎ Edit on GitHub</a></span><br>
+				<span style="float: right; font-style: normal;"><a id="wiki-edit-link">✎ Edit on GitHub</a></span><br>
 			</p>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 			<script type="text/javascript">
