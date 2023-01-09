@@ -1,6 +1,5 @@
 ---
 title: "Forsythia"
-date: 2023-1-1
 description: "Home to wood elves"
 tags: wood, elf, elves, fall, old empire, province
 ---
