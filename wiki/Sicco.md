@@ -1,6 +1,5 @@
 ---
 title: "Sicco"
-date: 2022-12-29
 description: "A ruined port town in the Southern Continent"
 tags: sicco, ruin, southern, continent, praeceps, rain, magi, mage, amulet, fluentum, pluvia
 ---
@@ -18,7 +17,7 @@ sized port town at the foot of Mount Praeceps.
 ### Rain Mages
 
 Because of its proximity to the Mage States and dry climate, many Rain Mages
-were put to work here. They learned how to summon monsoons and hurricanes,
+were put to work here. They learned how to summon showers and hurricanes,
 and bestowed this power unto the [Amulet of Fluentem](Southern_Continent#amulet-of-fluentum).
 One of Sicco's centers of study and prayer was the Temple of Pluvia Chorus,
 perched on the top of Mount Praeceps.

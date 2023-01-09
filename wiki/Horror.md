@@ -1,6 +1,5 @@
 ---
 title: "Horror"
-date: 2022-12-29
 description: "The root of all evil on Graem"
 tags: horror
 ---

@@ -1,6 +1,5 @@
 ---
 title: "BF and AF"
-date: 2022-12-29
 description: "Labels for the number of years before and after the Fall of the Old Empire"
 tags: bf, af
 ---

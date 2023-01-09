@@ -1,6 +1,5 @@
 ---
 title: "Oblitus"
-date: 2022-12-29
 description: "A lesser southern island of the Mage-States"
 tags: mage, states, lesser, south, oblitus, caeus
 ---

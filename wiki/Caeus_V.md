@@ -1,6 +1,5 @@
 ---
 title: "Caeus V the Indefatigable"
-date: 2022-1-3
 description: "Sovereign of Oblitus"
 tags: king, caeus, indefatigable, oblitus, mage, state
 ---
