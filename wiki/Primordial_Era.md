@@ -1,6 +1,5 @@
 ---
 title: "Primordial Era"
-date: 2023-01-02
 description: ""
 tags: 
 ---
