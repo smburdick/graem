@@ -8,6 +8,17 @@
     'Verdana';
 }
 
+@font-face {
+    font-family: 'Luminari';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Luminari'), url('fonts/Luminari-Regular.woff') format('woff');
+}
+
+#graem-wiki-name {
+    font-family: var(--font-family);
+}
+
 body {
     margin: 2em auto;
     background-color: var(--bkg);
