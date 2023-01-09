@@ -15,7 +15,7 @@
     src: local('Luminari'), url('fonts/Luminari-Regular.woff') format('woff');
 }
 
-#graem-wiki-name {
+#graem-wiki-header-text {
     font-family: Arial,
         Helvetica,
         sans-serif;
@@ -98,7 +98,7 @@ nav ul li a:hover, footer ul li a:hover {
     text-decoration: underline;
 }
 
-#graem-wiki-name:hover {
+#graem-wiki-header-text:hover {
     border-bottom: none;
     text-decoration: underline;
 }
