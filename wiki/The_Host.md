@@ -1,6 +1,5 @@
 ---
 title: "The Host"
-date: 2022-12-29
 description: "Evil, powerful gods who destroyed the Old Empire upon their ascension"
 tags: host, god, old, empire, fall
 ---
